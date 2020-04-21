@@ -19,7 +19,7 @@
 
     // Events Slider
     var next_event_slider = new Swiper('.next-event-slider', {
-        slidesPerView: 4,
+        slidesPerView: 6,
         spaceBetween: 20,
         loop: true,
         centeredSlides: true,
@@ -37,8 +37,12 @@
                 slidesPerView: 3
             }
         },
-        navigation: {
-            nextEl: '.next-event-slider-wrap .swiper-button-next'
+        // navigation: {
+        //     nextEl: '.next-event-slider-wrap .swiper-button-next'
+        // },
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction:false,
         }
     });
 
