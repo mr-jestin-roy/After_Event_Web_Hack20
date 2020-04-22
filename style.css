@@ -1969,11 +1969,12 @@ Modifications
 }
 .hero-content .entry-header h2{
     /* font-family: 'Press Start 2P', cursive; */
-    font-family: 'Share Tech Mono', monospace;
+    /* font-family: 'Share Tech Mono', monospace; */
+    font-family: 'IBM Plex Mono', monospace;
     /* font-family: 'VT323', monospace; */
     /* font-family: 'Zilla Slab Highlight', cursive; */
     /* font-family: 'Poppins', sans-serif; */
-    font-size: 2.625em; 
+    font-size: 2.3em; 
     color: rgb(14, 236, 169);
     color: white;
     /* text-shadow: 3px 10px 10px #000; */
@@ -2291,7 +2292,7 @@ div#partyInfo {
     width: calc(100% + 30px);
     transform: translate(-15px,0);
     padding-bottom: 56.25%;
-
+    box-shadow: rgba(34, 158, 207, 0.3) 0px 0px 130px;
 }
 
 .after-video .video-container .video{
@@ -2325,4 +2326,23 @@ div#partyInfo {
     opacity: 1;
     transform: scale(1.1);
     transition-duration: 150ms;
+}
+
+
+a{
+    cursor: pointer;
+}
+
+.footer-section{
+    width: 100%;
+    background-color: #080113;
+    padding: 30px;
+}
+
+.footer-section .footer-social ul{
+    list-style-type: none;
+    margin: 30px 0 10px 0;
+}
+.footer-section .footer-social ul li{
+    margin-right: 30px;
 }
