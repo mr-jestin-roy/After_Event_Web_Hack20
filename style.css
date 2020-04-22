@@ -2275,9 +2275,10 @@ div#partyInfo {
     cursor: pointer;
 }
 #content-sec .about-section .featured-image:hover{
-    bottom: 5px;
+    /* bottom: 5px; */
+    transform: scale(1.1);
     transition-duration: 300ms;
-    transition-property: bottom;
+    transition-property: transform;
     transition-timing-function: ease-in-out;
 }
 #content-sec .about-section .featured-image h4{
