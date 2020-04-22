@@ -2292,7 +2292,8 @@ div#partyInfo {
     width: calc(100% + 30px);
     transform: translate(-15px,0);
     padding-bottom: 56.25%;
-    box-shadow: rgba(34, 158, 207, 0.3) 0px 0px 130px;
+    /* box-shadow: rgba(34, 158, 207, 0.3) 0px 0px 130px; */
+    /* background-color: transparent; */
 }
 
 .after-video .video-container .video{
@@ -2301,7 +2302,9 @@ div#partyInfo {
     left: 0;
     width: 100%;
     height: 100%;
-    border: 0;
+    box-shadow: rgba(34, 158, 207, 0.3) 0px 0px 130px;
+    border: 0px solid transparent;
+    border-radius: 20px;
 }
 
 .after-video .entry-title{

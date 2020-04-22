@@ -25,14 +25,24 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="css/swiper.min.css">
 
+    <!-- Preloader -->
+    <link rel="stylesheet" href="/css/preloader.css">
+
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
 
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+    
+        <div class="loader-section section-left"></div>
+    </div>
+
     <header class="site-header">
         <div class="header-bar">
             <div class="container-fluid">
@@ -594,7 +604,22 @@
 
 
 
-    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+    <script>
+       $(document).ready(function() {
+            $('body').css('overflow','hidden');
+            setTimeout(function(){
+                $('body').addClass('loaded');
+                $('h1').css('color','#222222');
+                $('body').css('overflow','visible');
+            }, 3000);
+            
+            setTimeout(function(){
+                $('.loaded #loader-wrapper').css('display','none');
+            }, 3300);
+        });
+    </script>
+
     <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
     <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
     <script type='text/javascript' src='js/swiper.min.js'></script>
@@ -633,6 +658,7 @@
             .start();
             // .pasteString('.hack();');
     </script>
+
 
 </body>
 </html>
