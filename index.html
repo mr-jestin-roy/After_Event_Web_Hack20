@@ -568,19 +568,24 @@
     <script>
         let hero=document.querySelector(".hero-content");
         // let heroHeader=document.querySelector(".hero-content .entry-header h2:nth-child(1)");
-        let flag=1;
+        let flag=0;
         window.setInterval(function(e){
-            if(flag==1){
-                hero.style.background="url(../images/covers/2cover.jpg) no-repeat";
-                hero.style.backgroundSize="cover";
-                flag=0;
-            }
-            else{
-                hero.style.background="url(../images/covers/IMG-20200209-WA0175.jpg) no-repeat";
+            if(flag==0){
+                hero.style.background="url(../images/covers/1cover.jpeg) no-repeat";
                 hero.style.backgroundSize="cover";
                 flag=1;
             }
-        },10000);
+            else if(flag==1){
+                hero.style.background="url(../images/covers/2cover.jpg) no-repeat";
+                hero.style.backgroundSize="cover";
+                flag=2;
+            }
+            else if(flag==2){
+                hero.style.background="url(../images/covers/IMG-20200209-WA0175.jpg) no-repeat";
+                hero.style.backgroundSize="cover";
+                flag=0;
+            }
+        },8000);
     </script>
 
     <script>
