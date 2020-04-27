@@ -517,6 +517,7 @@ body {
 
 .the-complete-lineup-artists .artist-single {
     margin-bottom: 0px;
+
 }
 
 .the-complete-lineup-artists .artist-single:nth-of-type(even) {
@@ -537,9 +538,11 @@ body {
 }
 
 .the-complete-lineup-artists .artist-single .featured-image img {
-    max-width: 100%;
-    height: auto;
-    width: 255px;
+    /* max-width: 100%; */
+    /* height: auto; */
+    /* width: 255px; */
+    width: 100%;
+    /* object-fit:co; */
 }
 
 .the-complete-lineup-artists .artist-single .featured-image a {
@@ -574,24 +577,17 @@ body {
         margin-top: 48px;
     }
 
+
     .the-complete-lineup-artists .artist-single:nth-child(4) {
-        margin-top: 0;
+        margin-top: 75px;
     }
 
     .the-complete-lineup-artists .artist-single:nth-child(5) {
-        margin-top: 75px;
-    }
-
-    .the-complete-lineup-artists .artist-single:nth-child(6) {
         margin-top: 165px;
     }
 
-    .the-complete-lineup-artists .artist-single:nth-child(7) {
+    .the-complete-lineup-artists .artist-single:nth-child(6) {
         margin-top: 25px;
-    }
-
-    .the-complete-lineup-artists .artist-single:nth-child(8) {
-        margin-top: 75px;
     }
 }
 
@@ -2349,4 +2345,16 @@ a{
 }
 .footer-section .footer-social ul li{
     margin-right: 30px;
+}
+
+@keyframes hero-animation{
+    0%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
 }
