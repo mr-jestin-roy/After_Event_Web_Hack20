@@ -2534,3 +2534,14 @@ a{
     color: white;
 
 }
+
+
+/**------------*/
+
+#winners .featured-image img{
+    filter: brightness(100%) saturate(2) ;
+    border-color: transparent;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5%;
+}
