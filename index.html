@@ -290,6 +290,49 @@
                 </div>
             </div>
 
+            <!-- ---------------------------------------- -->
+            <div class="row" id="counter">
+                <div class="col-12">
+                    <div class="the-complete-lineup">
+                        <div class="entry-title">
+                            <p>JUST THE BEST</p>
+                            <h2>.hack(); Counter</h2>
+                        </div><!-- entry-title -->
+
+                        <div class="row num-counter">
+                            <div class="col-lg-3">
+                                 <div class="single-coutnerup">
+                                    <span class="count-num">10,236</span>
+                                    <h4>Total Users</h4>
+                                 </div>
+                            </div>
+                            <div class="col-lg-3">
+                                 <div class="single-coutnerup">
+                                    <span class="count-num">9236</span>
+                                    <h4>Total Download</h4>
+                                 </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                 <div class="single-coutnerup">
+                                    <span class="count-num">3,236</span>
+                                    <h4>Cup Of Coffee</h4>
+                                 </div>
+                            </div>
+                            <div class="col-lg-3">
+                                 <div class="single-coutnerup">
+                                    <span class="count-num">1236</span>
+                                    <h4>Happy Clients</h4>
+                                 </div>
+                            </div>
+                        </div>
+
+
+                    </div><!-- the-complete-lineup -->
+                </div><!-- col-12 -->
+
+            </div><!-- row -->
+            <!-- -------------------------------------------------- -->
 
             <div class="row" id="gallery">
                 <div class="col-12">
@@ -606,8 +649,18 @@
     </script>
 
 
-
     <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="./js/jquery.rcounterup.js"></script>
+    <script>
+        $(function(){
+            $('.count-num').rCounter({
+                duration: 30
+            });
+        });
+    </script>
+
+
     <script>
        $(document).ready(function() {
             $('body').css('overflow','hidden');
