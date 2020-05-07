@@ -236,7 +236,7 @@ body {
 -----------------------------------------------------------*/
 .hero-content {
     padding: 220px 0;
-    background: url("images/covers/1cover.jpeg") no-repeat;
+    background: url("images/covers/1cover.jpg") no-repeat;
     background-size: cover;
     transition: ease-in-out;
     transition-duration: 00ms;
