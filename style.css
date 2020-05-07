@@ -336,8 +336,11 @@ body {
     min-height: 4640px;
     width: 100%;
     padding-bottom: 120px;
-    background: url("images/middle-cover.jpg") no-repeat;
-    background-size: 100% auto;
+    background: url("images/middle-cover.png") no-repeat;
+    background-size: 101% auto;
+    background-position: center top;
+    position: relative;
+    top: -130px;
 }
 
 .content-section .middle-cover {
@@ -2492,4 +2495,9 @@ a{
     height: 94.5%;
     stroke: rgb(255, 255, 255);
     stroke-opacity: 1;
+}
+
+/*Padding in about sec*/
+.about-padding{
+    padding-top: 130px;
 }
