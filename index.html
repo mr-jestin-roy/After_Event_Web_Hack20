@@ -302,27 +302,27 @@
                         <div class="row num-counter">
                             <div class="col-lg-3">
                                  <div class="single-coutnerup">
-                                    <span class="count-num">10,236</span>
-                                    <h4>Total Users</h4>
+                                    <span class="count-num counter">516</span>
+                                    <h4>Registrations</h4>
                                  </div>
                             </div>
                             <div class="col-lg-3">
                                  <div class="single-coutnerup">
-                                    <span class="count-num">9236</span>
-                                    <h4>Total Download</h4>
+                                    <span class="count-num counter">332</span>
+                                    <h4>Submissions</h4>
                                  </div>
                             </div>
 
                             <div class="col-lg-3">
                                  <div class="single-coutnerup">
-                                    <span class="count-num">3,236</span>
-                                    <h4>Cup Of Coffee</h4>
+                                    <span class="count-num counter">67</span>
+                                    <h4>Teams</h4>
                                  </div>
                             </div>
                             <div class="col-lg-3">
                                  <div class="single-coutnerup">
-                                    <span class="count-num">1236</span>
-                                    <h4>Happy Clients</h4>
+                                    <span class="count-num counter">600</span>
+                                    <h4>Cups of Coffee Served</h4>
                                  </div>
                             </div>
                         </div>
@@ -639,13 +639,24 @@
     </script>
 
 
-    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+    <!-- <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
     <script src="./js/jquery.rcounterup.js"></script>
     <script>
         $(function(){
             $('.count-num').rCounter({
                 duration: 30
+            });
+        });
+    </script> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
             });
         });
     </script>
