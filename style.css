@@ -2137,7 +2137,7 @@ button
 
 .greenball {
     border: 3px solid white;
-    background:url(/images/icons/hero_arrow.png);
+    background:url(./images/icons/hero_arrow.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
