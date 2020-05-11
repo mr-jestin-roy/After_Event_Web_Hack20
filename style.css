@@ -243,6 +243,21 @@ body {
     filter: blur();
 }
 
+.hero-content.cover1 {
+    background: url("images/covers/1cover.jpg") no-repeat;
+    background-size: cover;
+}
+
+.hero-content.cover2 {
+    background: url("images/covers/2cover.jpg") no-repeat;
+    background-size: cover;
+}
+
+.hero-content.cover3 {
+    background: url("images/covers/IMG-20200209-WA0175.jpg") no-repeat;
+    background-size: cover;
+}
+
 .hero-content .entry-header {
     position: relative;
     text-align: center;
