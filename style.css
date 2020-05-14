@@ -2373,7 +2373,8 @@ div#partyInfo {
 
 .swiper-slide{
     border: 1px solid rgb(165, 165, 165);
-    background-color: rgba(180, 184, 171, 1);
+    /* background-color: rgba(180, 184, 171, 1); */
+    background-color: rgba(255, 255, 255, 0.9);
     cursor: pointer;
     position: relative;
     overflow: hidden;
