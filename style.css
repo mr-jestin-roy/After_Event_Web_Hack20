@@ -889,42 +889,25 @@ body {
 .site-footer {
     position: relative;
     padding: 40px 0 30px;
-    background: url(images/footer-cover.jpg) no-repeat;
+    background: #F1CE34;
     background-size: cover;
 }
 
-.site-footer::before {
-    position: absolute;
-    content: " ";
-    height: 100%;
-    width: 100%;
-    z-index: 3;
-    background: hsla(0, 0%, 5%, 0.7);
-    top: 0;
-    left: 0;
-}
+
+/* background: hsla(0, 0%, 5%, 0.7); */
 
 .site-footer .footer-cover-title {
     min-height: 480px;
     width: 100%;
-}
-
-.site-footer .footer-cover-title h2 {
-    font-size: 20vw;
-    font-weight: 700;
-    line-height: 1;
-    margin-bottom: 0;
-    text-align: center;
-    color: hsl(0, 0%, 100%);
-    mix-blend-mode: overlay;
-    z-index: 2;
+    color: white;
+    display: none;
 }
 
 /*------------------------------------------------------------
 ## .site-footer footer-content-wrapper
 ------------------------------------------------------------*/
 .footer-content-wrapper {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: auto;
     z-index: 4;
@@ -941,15 +924,19 @@ body {
 .footer-content-wrapper .entry-title {
     text-align: center;
     margin-top: 25px;
+    color: white;
+    font-size: 3em !important;
+    background: url(./images/download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding: 20px;
 }
 
-.footer-content-wrapper .entry-title a {
-    font-size: 52px;
-    font-weight: 700;
-    color: hsl(0, 0%, 100%);
-    line-height: 1;
-    text-decoration: none;
+footer .nono-gif{
+    max-width: 500px;
 }
+
 
 @media screen and (min-width: 576px) {
     .footer-content-wrapper .entry-title a {
@@ -959,7 +946,7 @@ body {
 
 .footer-content-wrapper .entry-mail {
     margin-top: 16px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     color: hsl(0, 0%, 100%);
 }
