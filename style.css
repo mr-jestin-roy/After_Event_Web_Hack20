@@ -351,11 +351,10 @@ body {
     min-height: 4640px;
     width: 100%;
     padding-bottom: 120px;
-    background: url("images/middle-cover.png") no-repeat;
+    background: url("images/middle-cover.jpg");
     background-size: 101% auto;
     background-position: center top;
     position: relative;
-    top: -130px;
 }
 
 .content-section .middle-cover {
@@ -391,7 +390,7 @@ body {
     width: 100%;
     font-size: 48px;
     font-weight: 600;
-    color: hsl(0, 0%, 0%);
+    color: #fff;
 }
 
 /*------------------------------------------------------------
@@ -436,21 +435,22 @@ body {
 .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
     position: relative;
     padding: 30px;
-    background: hsl(0, 0%, 100%);
+    background: #080113;
     box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
 }
 
 .lineup-artists-description .entry-title {
     font-size: 30px;
     font-weight: 600;
-    color: hsl(0, 0%, 9%);
+    color: #fff;
 }
 
 .lineup-artists-description .entry-content {
     margin-top: 20px;
     font-size: 15px;
-    color: hsl(0, 0%, 60%);
+    color: #fff;
     line-height: 2;
+    font-weight: 100;
 }
 
 .lineup-artists-wrap .box-link {
@@ -515,7 +515,7 @@ body {
 # the-complete-lineup
 ------------------------------------------------------------*/
 .the-complete-lineup {
-    margin-top: 115px;
+    margin-top: 300px;
 }
 
 @media(max-width: 515px){
@@ -537,7 +537,7 @@ body {
     margin: 0;
     font-size: 48px;
     font-weight: 600;
-    color: hsl(0, 0%, 0%);
+    color: #fff;
 }
 
 /*------------------------------------------------------------
@@ -705,7 +705,7 @@ body {
     margin: 0;
     font-size: 48px;
     font-weight: 600;
-    color: hsl(0, 0%, 0%);
+    color: #FFF;
 }
 
 /*------------------------------------------------------------
@@ -2325,17 +2325,10 @@ div#partyInfo {
 
 /*---------------------*/
 
-/* .hero-logo-bg-img{
-    position: absolute;
-    left: 50%;
-    transform:translate(-50%,-10%) scale(2) ;
-    opacity: 0.5;
-}  */
 
 #content-sec .about-section .featured-image{
-    /* border: 1px solid gray; */
-    padding: 20px;
-    background-color: rgb(45, 112, 237);
+    padding: 20px 20px 8px 25px;
+    background-color: #E2EB98;
     box-shadow: rgba(0, 0, 0, 0.1) 50px 40px 115px;
     position: relative;
     bottom: 0;
@@ -2343,19 +2336,22 @@ div#partyInfo {
     transition-timing-function: ease-in-out;
     cursor: pointer;
 }
-#content-sec .about-section .featured-image:hover{
-    /* bottom: 5px; */
-    transform: scale(1.1);
-    transition-duration: 300ms;
-    transition-property: transform;
-    transition-timing-function: ease-in-out;
-}
 #content-sec .about-section .featured-image h4{
-    color: white;
+    color: #080113;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
+
 #content-sec .about-section .featured-image p{
-    color: whitesmoke;
+    color: #080113;
+    font-weight: 400;
 }
+
+
+.about-section .featured-image{
+    height: 100%;
+}
+
 
 .after-video .video-container{
     position: relative;
@@ -2389,6 +2385,7 @@ div#partyInfo {
 
 .swiper-slide{
     border: 1px solid rgb(165, 165, 165);
+    background-color: rgba(180, 184, 171, 1);
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -2575,7 +2572,7 @@ a{
 
 /*Padding in about sec*/
 .about-padding{
-    padding-top: 130px;
+    padding-top: 10px;
 }
 
 /*number counter*/
@@ -2585,7 +2582,7 @@ a{
     margin-bottom: 6em;
     padding: 10em 4em 10em 4em;
     /* background-color: rgb(16, 71, 171); */
-    background-image: url(./images/celeb.jpg);
+    background-image: url(./images/shapesBg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2602,21 +2599,21 @@ a{
 }
 .num-counter .col-lg-3 .single-coutnerup{
     padding: 0.625em;
-    background-color: #2D70ED;
+    background-color: #10202D;
+    border: 1px solid white;
     text-align: center;
 }
 
 .count-num{
-    font-size: 3em;
+    font-size: 2.625em;
     color: white;
 
 }
 
 .single-coutnerup h4{
-    color: black;
-    font-size: 1em;
     color: white;
-
+    font-size: 1em;
+    font-weight: 300;
 }
 
 
@@ -2668,4 +2665,11 @@ a{
     .num-counter .col-lg-3{
         margin-top: 50px;
     }
+}
+
+
+
+
+#gallery .the-complete-lineup{
+    margin-top: 15em;
 }

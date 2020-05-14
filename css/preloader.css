@@ -106,8 +106,9 @@
                 transition: all 0.3s ease-out;
         
     }
-    .loaded #loader-wrapper {
+    #loader-wrapper.loaded{
         opacity: 0;
+        display: none;
         -webkit-transition: all 0.3s 0.5s ease-out;  
                 transition: all 0.3s 0.5s ease-out;
         
