@@ -2098,6 +2098,8 @@ Modifications
 @media(max-width: 447px){
     .hero-content .entry-header h2{
         font-size: 2em !important;
+        font-family: 'Zilla Slab Highlight', cursive;
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -2432,6 +2434,12 @@ div#partyInfo {
     margin-bottom: 5em;
 }
 
+@media(max-width: 515px){
+    .after-video .entry-title{
+        margin-bottom: 2em;
+    }    
+}
+
 .swiper-slide{
     border: 1px solid rgb(165, 165, 165);
     /* background-color: rgba(180, 184, 171, 1); */
@@ -2740,5 +2748,10 @@ a{
 @media(max-width: 515px){
     #gallery .the-complete-lineup{
         margin-top: 0;
+    }
+
+    .video-container iframe{
+        width: 100vw !important;
+        margin-left: calc(-50vw + 50%) !important;
     }
 }
