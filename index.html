@@ -653,7 +653,7 @@
     </script>
     
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
-    <script>
+    <!-- <script>
        $(window).ready(function() {
             $('body').css('overflow','hidden');
             setTimeout(function(){
@@ -666,6 +666,12 @@
                 $('.loaded #loader-wrapper').css('display','none');
             }, 3300);
         })
+    </script> -->
+
+    <script>
+        $(window).on("load", function(){
+            $('body').addClass('loaded');
+        });
     </script>
 
     <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
