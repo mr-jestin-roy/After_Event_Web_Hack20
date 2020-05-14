@@ -665,6 +665,10 @@
             duration: 600,  
             once: true,
             offset: 1,
+            disable: function() {
+                var maxWidth = 515;
+                return window.innerWidth < maxWidth;
+            }
         });
     </script>
 
