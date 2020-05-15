@@ -243,6 +243,7 @@ body {
     transition: ease-in-out;
     transition-duration: 00ms;
     filter: blur();
+    min-height: 100vh;
 }
 @media (max-width: 507px){
     .hero-content{
