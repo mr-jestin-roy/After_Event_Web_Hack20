@@ -15,7 +15,7 @@ body {
     font-weight: normal;
     color: hsl(0, 0%, 90%);
     overflow-x: hidden;
-    background-color: #003152;
+    background-color: #031726;
 }
 
 @font-face {
@@ -473,7 +473,7 @@ body {
 .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
     position: relative;
     padding: 30px;
-    background: #080113;
+    background: #031726;
     box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
 }
 
