@@ -15,7 +15,7 @@ body {
     font-weight: normal;
     color: hsl(0, 0%, 90%);
     overflow-x: hidden;
-    background-color: #031726;
+    background-color: #0A0618;
 }
 
 @font-face {
@@ -473,7 +473,7 @@ body {
 .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
     position: relative;
     padding: 30px;
-    background: #031726;
+    background: #0A0618;
     box-shadow: 13px 1px 115px rgba(255, 255, 255, 0.1);
 }
 
@@ -2452,7 +2452,7 @@ div#partyInfo {
     padding: 20px;
 }
 .swiper-slide .featured-image img{
-    opacity: 0.6;
+    opacity: 1;
     transform: scale(1);
     transition-duration: 150ms;
 }
@@ -2469,7 +2469,7 @@ a{
 
 .footer-section{
     width: 100%;
-    background-color: #031726;
+    background-color: #0A0618;
     padding: 30px;
 }
 
@@ -2670,7 +2670,7 @@ a{
 }
 .num-counter .col-lg-3 .single-coutnerup{
     padding: 0.625em;
-    background-color: #031726;
+    background-color: #0A0618;
     border: 1px solid white;
     text-align: center;
 }
