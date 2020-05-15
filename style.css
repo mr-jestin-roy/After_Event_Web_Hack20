@@ -567,7 +567,7 @@ body {
     padding: 0;
     font-size: 14px;
     font-weight: 600;
-    color: hsl(0, 0%, 48%);
+    color: hsl(0, 0%, 90%);
 }
 
 .the-complete-lineup .entry-title h2 {
@@ -2469,7 +2469,7 @@ a{
 
 .footer-section{
     width: 100%;
-    background-color: #152238;
+    background-color: #002147;
     padding: 30px;
 }
 
