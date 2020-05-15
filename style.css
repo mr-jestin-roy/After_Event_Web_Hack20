@@ -474,7 +474,7 @@ body {
     position: relative;
     padding: 30px;
     background: #031726;
-    box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
+    box-shadow: 13px 1px 115px rgba(255, 255, 255, 0.1);
 }
 
 .lineup-artists-description .entry-title {
