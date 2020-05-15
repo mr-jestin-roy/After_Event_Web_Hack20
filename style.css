@@ -15,7 +15,7 @@ body {
     font-weight: normal;
     color: hsl(0, 0%, 90%);
     overflow-x: hidden;
-    background-color: #080113;
+    background-color: #003152;
 }
 
 @font-face {
@@ -2469,7 +2469,7 @@ a{
 
 .footer-section{
     width: 100%;
-    background-color: #080113;
+    background-color: #003152;
     padding: 30px;
 }
 
