@@ -71,7 +71,7 @@ body {
 }
 
 .header-bar .site-branding {
-    margin-bottom: 0;
+    position: center
     font-size: 30px;
     font-weight: 800;
 }
@@ -143,7 +143,7 @@ body {
 }
 
 .site-navigation {
-    position: absolute;
+    position: relative;
     top: -11px;
     right: 15px;
     z-index: 9999;
@@ -186,12 +186,14 @@ body {
     display: block;
     color: #fff;
     transition: all 0.35s;
+    font-family: "mountains";
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
     padding-left: 40px;
 }
 
-@media screen and (min-width: 992px) {
+
+@media screen and (min-width: 1200px) {
     .header-bar .site-branding {
         margin-left: 35px;
     }
@@ -275,7 +277,10 @@ body {
     padding: 50px;
     margin: 0;
     font-family: mountains;
-    font-size:120px;
+    font-size:160px;
+}
+.hero-content .entry-header img {
+    width: 50em;
 }
 
 .hero-content .entry-header .entry-meta-date {
@@ -970,14 +975,31 @@ body {
     background-position-x: center;
     padding: 20px;
 }
+footer .panda-gif{
+    max-width: 500px;
+    position: relative;
+    margin-right: 30px;
+}
+
+@media (max-width: 456px){
+    footer .panda-gif{
+    max-width: 8vw;
+    position: relative;
+    margin-right: 10px;
+    }
+}
 
 footer .nono-gif{
     max-width: 500px;
+    position: relative;
+    margin-right:30px;
 }
 
 @media (max-width: 456px){
     footer .nono-gif{
-        max-width: 99vw;
+    max-width: 8vw;
+    position: relative;
+    margin-right:30px;
     }
 }
 
